@@ -18,7 +18,7 @@ if (!defined('ABSPATH')){
 }
 
 
-add_action('pre_get_posts', 'filter_posts_list');
+add_action('pre_get_posts', 'hs_filter_posts_list');
 function hs_filter_posts_list($query)
 {
 	//$pagenow holds the name of the current page being viewed
